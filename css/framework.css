@@ -1,0 +1,411 @@
+/* This Is FrameWork Area */
+
+/* Start Var */
+:root {
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-colir: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+    --youtyube-color: #e1002d;
+}
+
+/* End Var */
+
+.w-full {
+    width: 100%;
+}
+
+
+/* Start Box */
+.d-flex {
+    display: flex;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.f-direction {
+    flex-direction: column;
+}
+
+.space-btween {
+    justify-content: space-between;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.txt-decoration-line {
+    text-decoration: line-through;
+}
+
+/* End Box */
+
+/* Stary Component */
+.between-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+
+/* End Component */
+
+/* Start Grid */
+.d-grid {
+    display: grid;
+}
+
+.colo-grid {
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+/* End Grid */
+
+/* Border Color */
+.border-blue {
+    border-color: var(--blue-color);
+}
+
+.border-green {
+    border-color: green;
+}
+
+.border-orange {
+    border-color: orange;
+}
+
+.border-red {
+    border-color: #e1002d;
+}
+
+.border-ccc {
+    border: 1px solid #ccc;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.border-beee {
+    border-bottom: 1px solid #eee;
+}
+
+/* Border Color */
+
+
+
+
+
+/* Start Padding +Margin */
+.p-20 {
+    padding: 20px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+
+.m-20 {
+    margin: 20px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.mr {
+    margin-right: 10px;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+/* End Padding +Margin */
+
+
+
+
+
+/* Start Color */
+.bg-white {
+    background-color: white;
+}
+
+.bg-ddd {
+    background-color: #ddd;
+}
+
+.bg-f6 {
+    background-color: #f6f6f6;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-eee {
+    background-color: #eee;
+}
+
+.bg-blue {
+    background-color: var(--blue-color);
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-gray {
+    background-color: gray;
+}
+
+/* End Color */
+
+
+
+
+
+
+/* Start Posation */
+.p-relative {
+    position: relative;
+}
+
+/* Start Posation */
+
+/* Text  Align*/
+.txt-c {
+    text-align: center;
+}
+
+/* Text  Align*/
+
+
+/* Font Size*/
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.border-red {
+    border-color: red;
+}
+
+.border-orange {
+    border-color: orange;
+}
+
+.border-green {
+    border-color: green;
+}
+
+.border-blue {
+    border-color: var(--blue-color);
+}
+
+/* Font Size*/
+
+/* Color */
+.c-black {
+    color: black;
+}
+
+.c-blue {
+    color: var(--blue-color);
+}
+
+.c-orange {
+    color: orange;
+}
+
+.c-gray {
+    color: gray;
+}
+
+.c-green {
+    color: green;
+}
+
+.c-greeeen {
+    color: #22c55e;
+}
+
+.c-red {
+    color: red;
+}
+
+.c-white {
+    color: white;
+}
+
+/* Color */
+
+.left-0 {
+    left: 0;
+}
+
+/* Border Rad */
+.b-none {
+    border: none;
+}
+
+.rad-6 {
+    border-radius: 6px;
+}
+
+.rad-10 {
+    border-radius: 10px;
+}
+
+.rad-50 {
+    border-radius: 50%;
+}
+
+/* Border Rad */
+
+/* Media */
+@media (max-width:767px) {
+    .hide-mobile {
+        display: none;
+    }
+
+    .txt-c-mobile {
+        text-align: center;
+    }
+
+    .block-mobile {
+        display: block;
+    }
+}
+
+
+/* Media */
+
+
+/* Styart Width */
+.w-full {
+    width: 100%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+/* Styart Width */
+
+.d-block {
+    display: block;
+}
